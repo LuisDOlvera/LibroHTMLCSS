@@ -10,22 +10,60 @@
 </head>
 <body>
     <!-- Encabezado -->
-    <header>
-        Este es el Título
+    <header id="titulo">
+        <!-- Este es el Título -->
+        <h1>Este es el Título</h1>
     </header>
     <!-- Agrupación de enlaces Navbar -->
     <nav>
-        Principal | Fotos | Videos | Contacto
+        <a href="index.html">Principal</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="videos.html">Videos</a>
+        <a href="contacto.html">Contacto</a>
     </nav>
     <!-- main Contenido principal -->
     <main>
         <!-- section Secciones dentro de la página. -->
         <section>
             <article>
-                Este es el texto de mi primer artículo
+                <!-- Este elemento pre  muestra un texto con formato predefinido, como código de programación o una cita, que requiere que los espacios asignados a cada carácter y los saltos de línea se muestren como se han declarado originalmente. -->
+                <pre>
+                    La muerte es una quimera: porque mientras yo existo, no existe la muerte;
+                    y cuando existe la muerte, ya no existo yo.
+                    Epicuro de Samos
+                </pre>
+            </article>
+                                    
+            <article>
+                <!-- Elemento br se usa para insertar saltos de línea. -->
+                <p>
+                    La muerte es una <em>quimera</em>: porque mientras yo existo, no existe la <i>muerte</i>;<br>y cuando existe la <i>muerte</i>, <strong>ya no existo yo</strong>.<br>Epicuro de Samos
+                </p>
             </article>
             <article>
-                Este es el texto de mi segundo artículo
+                <header>
+                    <h2>Título del Artículo</h2>
+                    <time datetime="2022-11-07" pubdate>Publicado 07-11-2022</time>    
+                </header>
+                <p>La muerte es una quimera: porque mientras yo <mark>existo</mark>, no existe la muerte;<br>y cuando existe la muerte, ya no existo yo.<br>
+                <!-- El elemento cite, representa el autor o título de una obra, como un libro, una película, etc. -->    
+                <cite>Epicuro de Samos</cite></p>
+                
+                <figure>    
+                    <img src="images/nswichsplatoon3.jpeg" width="250" alt="Nintendo Swich Oled Edición Splatoon 3">
+                    <figcaption>Nintendo Swich Oled Edición Splatoon 3</figcaption>
+                </figure>    
+            </article>
+            <article>
+                <!-- El elemento code trabaja junto con otros elementos para presentar contenido junto con el elemento pre. Se implementan juntos para presentar código de programación. -->
+                <pre>
+                    <code>
+                        function cambiarColor() {
+                            document.body.style.backgroundColor = "0000FF";
+                        }
+                        document.addEvenListener("clic", cambiarColor);
+                    </code>
+                </pre>
             </article>
         </section>
         <!-- Atributo id Identificador unico a un elemento -->
@@ -42,13 +80,61 @@
             <div class="libros">Libro: El Resplandor, Stephen King</div>
             <div class="libros">Libro: Misery, Stephen King</div>
         </section>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo minima dicta temporibus quibusdam, quas, ducimus impedit quia fugiat laboriosam, nulla dolore distinctio totam aperiam! Nulla beatae eum blanditiis recusandae.
+            Iure doloribus illum voluptas quas excepturi, itaque accusantium culpa animi officia libero nisi earum reprehenderit pariatur sint optio quidem blanditiis modi maxime nulla nostrum dicta rerum sunt nobis ipsum? Eum.
+            Magnam suscipit autem iste quae, illum vero facilis enim a voluptates explicabo, impedit asperiores tempore iusto ullam error quas quos odit officia ex quaerat! Labore provident praesentium tempore dolorum voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque autem repellendus, sed debitis placeat eligendi dolor atque adipisci dolore mollitia ipsum non amet deserunt voluptates recusandae soluta. Illum, ab in!
+            Aliquam tenetur, harum ullam laudantium explicabo pariatur exercitationem sequi facere velit obcaecati vel a laboriosam iure, rerum eum doloremque. Animi veritatis iure possimus voluptatem dolor, porro quas consectetur minima maiores.
+            Ipsa, veniam voluptatibus quis consequatur assumenda nostrum temporibus dolor quam adipisci iste incidunt exercitationem natus perferendis dicta sit qui expedita cumque iure mollitia error praesentium molestias? Fuga, deleniti quibusdam? Accusantium!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum hic possimus ad fugiat exercitationem provident. Sunt deserunt nulla nesciunt delectus nihil vitae iusto quam nostrum iure! Ipsam assumenda fuga deleniti!
+            Harum iusto nam perspiciatis, ipsa atque, ipsam facere voluptatum maiores quidem quam similique odit laboriosam repellat sint. Maiores, voluptas est exercitationem, distinctio a officia ab et cum id molestias pariatur.
+            Minima quae consectetur quos dicta temporibus beatae, debitis exercitationem cum dolores architecto deleniti sed, molestias ipsum nulla earum quia repellat tenetur dolor, iusto sapiente dolorem obcaecati. Molestias nostrum odio dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, temporibus vel nostrum adipisci laborum eos similique ipsa numquam sed! Nemo dignissimos dolorum iste earum delectus libero esse in atque consequuntur?
+            Quaerat, maxime delectus facilis aliquam deserunt quas nobis necessitatibus hic nesciunt placeat eligendi voluptate laborum non adipisci dolorem explicabo molestiae tempore fugiat, fugit doloremque dolores! Voluptate eius doloremque porro consequatur?
+            Inventore sed facere molestiae quos. Totam incidunt nesciunt voluptate dignissimos similique blanditiis illo accusantium quam, quia mollitia natus deserunt ipsum earum eos et? Odio, optio reiciendis voluptatum dignissimos exercitationem earum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quod soluta, natus officiis rerum, quisquam aut a corrupti eum, ratione fuga. Perferendis delectus dicta molestias ratione voluptates! Odio, accusamus esse.
+            Cupiditate quaerat, eum atque voluptate cum unde architecto fugit alias tenetur doloribus dicta sit quas illum illo nesciunt nulla vitae, quis voluptates necessitatibus officiis! Enim et optio atque ipsum doloribus.
+            Corrupti enim eum ducimus sunt doloribus esse repellat odio deserunt, minima, commodi illum tenetur omnis. Voluptatum beatae, autem ducimus rem quae corporis repellendus iusto voluptas voluptates consequatur quod obcaecati sapiente?</p>
+            <p><a href="#titulo">Volver</a></p>
+        </section>
         <aside>
-            Cita del artículo 1
-            Cita del artículo 2
+            <p>Cita del artículo 1</p>
+            <p>Cita del artículo 2</p>
+            <!-- Lista desordenada de elementos -->
+            <ul>
+                <li>IT, Stephen King</li>
+                <li>Carrie, Stephen King</li>
+                <li>El Resplandor, Stephen King</li>
+                <li>Misery, Stephen King</li>
+            </ul>
+            <!-- Lista Ordenada de elementos -->
+            <ol type="A">
+                <li>IT, Stephen King</li>
+                <li>Carrie, Stephen King</li>
+                <li>El Resplandor, Stephen King</li>
+                <li>Misery, Stephen King</li>
+            </ol>
+            <!-- Los elementos dl, dt y dd trabajan de forma similar a ul, pero su propósito es mostrar una lista de térmimnos y descripciones. Los términos se representan por el elemento dt y las descripciones por el elemento dd. --> 
+            <dl>
+                <dt>It</dt>
+                <dd>Tras lustros de tranqulidad y lejanía, una antigua promesa infantil les hace volver al lugar en el que vivieron en suninfancia y juventud como una terrible pesadilla</dd>
+                <dt>Carrie</dt>
+                <dd>Sus compañeros se burlan de ella, pero Carrie tiene un don. Puede mover cosas con su mente. Este es su poder y su gran problema.</dd>
+                <dt>El Resplandor</dt>
+                <dd>Al escitor Jack Torrance le es ofrecido un empleo como cuidador del hotel Overlook durante el invierno junto a su familia</dd>
+                <dt>Misery</dt>
+                <dd>Paul Sheldon es un famoso escritor de novelas románticas ambientadas en la epoca victoriana, cuto personaje p`rincipal se llama Misery Chastain</dd>
+            </dl>
         </aside>
     </main>
+    <!-- footer Etiqueta para pie de página -->
     <footer>
-        &copy;Derechos Reservados 2022
+        <!-- El elemento address representa información de contacto, se implementa con frecuancia dentro de los pies de página para definir la dirección de la empresa o el sitio web. -->
+        <address>Nezahualcóyotl, Edo. Mex</address>
+        <!-- Elemento small, representa letra pequeña, como declaraciones legales, etc. -->
+        <small>&copy;Derechos Reservados 2022 <a href="http://www.jdgauchat.com" target="_blank">J.D Gauchat</a></small>
+        <small><a href="mailto:luisd_84@hotmail.com">Contacto Luis Daniel</a></small>
     </footer>
 
 </body>

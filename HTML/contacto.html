@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Prácticas HTML</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- Este es el Título -->
+        <h1>Enviar un Mensaje</h1>
+    </header>
+    <!-- Agrupación de enlaces Navbar -->
+    <nav>
+        <a href="index.html">Principal</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="videos.html">Videos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <!-- main Contenido principal -->
+    <main>
+        <!-- section Secciones dentro de la página. -->
+        <section>
+            <article>
+                <!-- Este elemento pre  muestra un texto con formato predefinido, como código de programación o una cita, que requiere que los espacios asignados a cada carácter y los saltos de línea se muestren como se han declarado originalmente. -->
+                <pre>
+                    La muerte es una quimera: porque mientras yo existo, no existe la muerte;
+                    y cuando existe la muerte, ya no existo yo.
+                    Epicuro de Samos
+                </pre>
+            </article>
+                                    
+            <article>
+                <!-- Elemento br se usa para insertar saltos de línea. -->
+                <p>
+                    La muerte es una <em>quimera</em>: porque mientras yo existo, no existe la <i>muerte</i>;<br>y cuando existe la <i>muerte</i>, <strong>ya no existo yo</strong>.<br>Epicuro de Samos
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h2>Título del Artículo</h2>
+                    <time datetime="2022-11-07" pubdate>Publicado 07-11-2022</time>    
+                </header>
+                <p>La muerte es una quimera: porque mientras yo <mark>existo</mark>, no existe la muerte;<br>y cuando existe la muerte, ya no existo yo.<br>
+                <!-- El elemento cite, representa el autor o título de una obra, como un libro, una película, etc. -->    
+                <cite>Epicuro de Samos</cite></p>
+            </article>
+            <article>
+                <!-- El elemento code trabaja junto con otros elementos para presentar contenido junto con el elemento pre. Se implementan juntos para presentar código de programación. -->
+                <pre>
+                    <code>
+                        function cambiarColor() {
+                            document.body.style.backgroundColor = "0000FF";
+                        }
+                        document.addEvenListener("clic", cambiarColor);
+                    </code>
+                </pre>
+            </article>
+        </section>
+        <!-- Atributo id Identificador unico a un elemento -->
+        <section id="noticias">
+            Artículos largos
+        </section>
+        <section id="noticiaslocales">
+            Articulos cortos
+        </section>
+        <section>
+            <!-- Atributo class para asignar el mismo identificador a un grupo de elementos -->
+            <div class="libros">Libro: IT, Stephen King</div>
+            <div class="libros">Libro: Carrie, Stephen King</div>
+            <div class="libros">Libro: El Resplandor, Stephen King</div>
+            <div class="libros">Libro: Misery, Stephen King</div>
+        </section>
+        <aside>
+            <p>Cita del artículo 1</p>
+            <p>Cita del artículo 2</p>
+        </aside>
+    </main>
+    <!-- footer Etiqueta para pie de página -->
+    <footer>
+        <!-- El elemento address representa información de contacto, se implementa con frecuancia dentro de los pies de página para definir la dirección de la empresa o el sitio web. -->
+        <address>Nezahualcóyotl, Edo. Mex</address>
+        <!-- Elemento small, representa letra pequeña, como declaraciones legales, etc. -->
+        <small>&copy;Derechos Reservados 2022</small>
+    </footer>
+
+</body>
+</html>
